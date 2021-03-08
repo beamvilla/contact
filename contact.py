@@ -7,7 +7,8 @@ import time
 import multiprocessing
 
 contact_list_sum = list()
-with open('C:/Users/dell/Downloads/Dataset for Multi-Channel Contacts Problem (5)/contacts.json') as json_file:
+#json_file_path = your json file path
+with open(json_file_path) as json_file:
     data = json.load(json_file)
 
 df = pd.DataFrame(data = data)
